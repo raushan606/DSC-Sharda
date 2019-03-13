@@ -1,13 +1,16 @@
 .-grey {
-    background: chocolate;                                                        
+    background: lightcyan;                                                        
 }
 
 h1 {
     font-size: 58px; 
     font-weight: 500;
+    color: white;
+    
 }
 
 p {
+    color: white;
     font-size: 20px;
      font-weight: 300; 
      margin-top: 0.5em;
