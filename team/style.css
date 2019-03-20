@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url('background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading{
+    text-align: center;
+    background: #3D4351;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: normal;
+    width: 100%;
+    line-height: 1;
+    
+}
+.heading a{
+    text-decoration: none;
+    color: white;
+}
+
+.team{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 12px;
+}
+
+
+
+.foo{
+    text-align: center;
+    font-size: 15px;
+    vertical-align: bottom;
+    color: white;
+}
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .heading{
+    font-size: 12px;
+    text-align: center;
+      
+  }
+    .foo{
+        font-size: 12px;
+        color: white;
+        text-align: center;
+    }
+}
+
+/* ------------------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.row{
+    margin-left: 250px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background: white;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+      margin: 0;
+      margin-top: 12px;
+  }
+    .row{
+    margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 2px;
+}
+}
+
+.card:hover {
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.3);
+}
+
+.container {
+  padding: 0 16px;
+    text-align: center;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
